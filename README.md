@@ -1,12 +1,12 @@
-# Self-Host Browser (shb)
+# Self-Host Browser (sh-browser)
 
 ## Overview
 
-**Self-Host Browser (shb)** is a command-line interface (CLI) tool designed for managing self-hosted applications. It provides functionalities to install, update, run, and manage applications hosted in Git repositories. It also supports configuring autostart settings and managing application directories.
+**Self-Host Browser (sh-browser)** is a command-line interface (CLI) tool designed for managing self-hosted applications. It provides functionalities to install, update, run, and manage applications hosted in Git repositories. It also supports configuring autostart settings and managing application directories.
 
 ## Table of Contents
 
-- [Self-Host Browser (shb)](#self-host-browser-shb)
+- [Self-Host Browser (sh-browser)](#self-host-browser-sh-browser)
   - [Overview](#overview)
   - [Table of Contents](#table-of-contents)
   - [Installation](#installation)
@@ -26,16 +26,16 @@
 
 ## Installation
 
-To install **shb** globally, you can use either `npm` or `yarn`:
+To install **sh-browser** globally, you can use either `npm` or `yarn`:
 
 ```bash
-npm install shb -g
+npm install sh-browser -g
 ```
 
 or
 
 ```bash
-yarn global add shb
+yarn global add sh-browser
 ```
 
 ## Usage
@@ -43,14 +43,14 @@ yarn global add shb
 To start the Self-Host Browser, run:
 
 ```bash
-npx shb
+npx sh-browser
 ```
 
 This command will launch the CLI, allowing you to interact with the application menu, manage installed apps, and configure settings.
 
 ## Configuration
 
-**shb** uses a `config.json` file to store configuration settings. The configuration file includes:
+**sh-browser** uses a `config.json` file to store configuration settings. The configuration file includes:
 
 - **downloadDirectory**: The directory where applications will be downloaded.
 - **runAfterInstall**: A boolean flag indicating whether applications should be run immediately after installation.
@@ -79,7 +79,7 @@ You can specify these settings during the first run of the application, or updat
 ### Start
 
 ```bash
-npx shb
+npx sh-browser
 ```
 
 Starts the application and opens the main menu.
@@ -131,7 +131,7 @@ This file should be placed in the same directory as `index.js` and should includ
 
 ## Contributing
 
-To contribute to **shb**, please follow these steps:
+To contribute to **sh-browser**, please follow these steps:
 
 1. Fork the repository.
 2. Create a new branch for your feature or bug fix.
@@ -140,4 +140,4 @@ To contribute to **shb**, please follow these steps:
 
 ## License
 
-**shb** is licensed under the MIT License. See [LICENSE](LICENSE) for details.
+**sh-browser** is licensed under the MIT License. See [LICENSE](LICENSE) for details.
