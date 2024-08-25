@@ -1,0 +1,31 @@
+{
+  "name": "shb",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "keywords": [
+    "self-hosted",
+    "automation",
+    "CLI"
+  ],
+  "author": "Zachey",
+  "license": "MIT",
+  "type": "module",
+  "description": "Self-Hosting browser",
+  "dependencies": {
+    "autostarter": "^1.0.2",
+    "chalk": "^5.3.0",
+    "inquirer": "^10.1.8",
+    "ora": "^8.0.1",
+    "simple-git": "^3.25.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zachey01/shb.git"
+  },
+  "bin": {
+    "shb": "index.js"
+  }
+}

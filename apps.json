@@ -1,0 +1,44 @@
+{
+  "apps": [
+    {
+      "name": "linkwarden",
+      "description": "Collaborative bookmark manager",
+      "gitUrl": "https://github.com/linkwarden/linkwarden.git",
+      "installCommand": "npm install",
+      "buildCommand": "npm run build",
+      "startCommand": "npm run start"
+    },
+    {
+      "name": "Nextjs Ollama GUI",
+      "description": "WebUI for Ollama",
+      "gitUrl": "https://github.com/jakobhoeg/nextjs-ollama-llm-ui.git",
+      "installCommand": "npm install",
+      "buildCommand": "npm run build",
+      "startCommand": "npm run start"
+    },
+    {
+      "name": "CORS Anywhere",
+      "description": "Reverse proxy which adds CORS headers to the proxied request",
+      "gitUrl": "https://github.com/Rob--W/cors-anywhere.git",
+      "installCommand": "npm install",
+      "buildCommand": "",
+      "startCommand": "node server.js"
+    },
+    {
+      "name": "Send",
+      "description": "Simple, private file sharing",
+      "gitUrl": "https://github.com/timvisee/send.git",
+      "installCommand": "npm install",
+      "buildCommand": "",
+      "startCommand": "npm run start"
+    },
+    {
+      "name": "URL to PNG",
+      "description": "URL to PNG utility featuring parallel rendering using Playwright for screenshots and with storage",
+      "gitUrl": "https://github.com/jasonraimondi/url-to-png.git",
+      "installCommand": "npm install",
+      "buildCommand": "",
+      "startCommand": "npm run dev"
+    }
+  ]
+}
